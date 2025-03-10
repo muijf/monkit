@@ -4,6 +4,9 @@
     "build": "bun build --target=node --outfile=dist/index.js src/index.ts",
     "dev": "bun build --watch --target=node --outfile=dist/index.js src/index.ts"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "@types/react": "^18.2.0",
     "react": "^18.2.0",
