@@ -16,5 +16,8 @@
   },
   "peerDependencies": {
     "react": ">=16.8.0"
+  },
+  "dependencies": {
+    "source-map": "^0.7.4"
   }
 }

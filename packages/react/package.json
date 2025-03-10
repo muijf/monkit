@@ -1,4 +1,14 @@
 {
   "name": "@monkit/react",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "exports": {
+    ".": "./src/index.ts",
+    "./dom": "./src/dom/index.ts"
+  },
+  "scripts": {
+    "build": "bun build src/index.ts src/dom/index.ts --external='react' --external='react-dom' --outdir dist"
+  },
+  "dependencies": {
+    "bippy": "^0.3.8"
+  }
 }
