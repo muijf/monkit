@@ -1,5 +1,6 @@
 {
-  "name": "@muijf/monkit",
+  "name": "monkit",
+  "private": true,
   "scripts": {
     "build": "bun build --target=node --outfile=dist/index.js src/index.ts",
     "dev": "bun build --watch --target=node --outfile=dist/index.js src/index.ts"
